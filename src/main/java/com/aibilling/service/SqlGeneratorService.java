@@ -1,14 +1,13 @@
-package com.example.aibilling.service;
+package com.aibilling.service;
 
-import com.example.aibilling.entity.QueryLog;
-import com.example.aibilling.repository.QueryLogRepository;
+import com.aibilling.entity.QueryLog;
+import com.aibilling.repository.QueryLogRepository;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.persistence.Column;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.Table;
-import jakarta.persistence.metamodel.Attribute;
 import jakarta.persistence.metamodel.EntityType;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

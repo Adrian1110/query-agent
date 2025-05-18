@@ -1,6 +1,6 @@
-package com.example.aibilling.repository;
+package com.aibilling.repository;
 
-import com.example.aibilling.entity.Timesheet;
+import com.aibilling.entity.Timesheet;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface TimesheetRepository extends JpaRepository<Timesheet, Long> {

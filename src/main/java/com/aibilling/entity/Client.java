@@ -1,4 +1,4 @@
-package com.example.aibilling.entity;
+package com.aibilling.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

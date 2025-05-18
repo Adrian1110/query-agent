@@ -1,8 +1,7 @@
-package com.example.aibilling;
+package com.aibilling;
 
-import com.example.aibilling.entity.QueryLog;
-import com.example.aibilling.repository.QueryLogRepository;
-import com.example.aibilling.service.SqlGeneratorService;
+import com.aibilling.repository.QueryLogRepository;
+import com.aibilling.service.SqlGeneratorService;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.Query;
 import org.junit.jupiter.api.BeforeEach;

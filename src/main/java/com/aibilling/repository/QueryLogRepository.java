@@ -1,6 +1,6 @@
-package com.example.aibilling.repository;
+package com.aibilling.repository;
 
-import com.example.aibilling.entity.QueryLog;
+import com.aibilling.entity.QueryLog;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface QueryLogRepository extends JpaRepository<QueryLog, Long> {

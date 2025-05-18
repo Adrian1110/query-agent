@@ -1,4 +1,4 @@
-package com.example.aibilling;
+package com.aibilling;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

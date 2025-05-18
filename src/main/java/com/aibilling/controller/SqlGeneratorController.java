@@ -1,6 +1,6 @@
-package com.example.aibilling.controller;
+package com.aibilling.controller;
 
-import com.example.aibilling.service.SqlGeneratorService;
+import com.aibilling.service.SqlGeneratorService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

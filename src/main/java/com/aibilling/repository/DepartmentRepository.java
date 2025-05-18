@@ -1,6 +1,6 @@
-package com.example.aibilling.repository;
+package com.aibilling.repository;
 
-import com.example.aibilling.entity.Department;
+import com.aibilling.entity.Department;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface DepartmentRepository extends JpaRepository<Department, Long> {
